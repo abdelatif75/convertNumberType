@@ -43,7 +43,7 @@ public class Main extends JFrame {
 
                          switch (check){
                              case "octal":
-                                 label1 = new JLabel("binary: "+Integer.toBinaryString(Integer.parseInt(textField)));
+                                 label1 = new JLabel("binary: "+Integer.toBinaryString(Integer.parseInt(textField,8)));
                                  label1.setBounds(50,50,200,30);
                                  label2 = new JLabel("hexadecimal: "+Integer.toHexString(Integer.parseInt(textField,8)));
                                  label2.setBounds(50,100,200,30);
